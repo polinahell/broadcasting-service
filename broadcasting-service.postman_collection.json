@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "ecac2aef-22b9-484d-a580-53b5e19d3499",
+		"name": "broadcasting-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8090/banners",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8090/banners",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8090",
+					"path": [
+						"banners"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
